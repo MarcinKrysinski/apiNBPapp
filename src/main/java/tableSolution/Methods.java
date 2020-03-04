@@ -8,7 +8,7 @@ class Methods {
 
     static boolean exit = true;
     private Scanner scanner = new Scanner(System.in);
-    RatesTable ratesTable = new RatesTable();
+    private RatesTable ratesTable = new RatesTable();
 
 
     void menu() {
@@ -33,7 +33,7 @@ class Methods {
     }
 
 
-    void program() {
+    private void program() {
 
         System.out.println("Date format [yyyy-mm-dd]");
 
@@ -59,7 +59,7 @@ class Methods {
     }
 
 
-    boolean isCorrectDatePattern(String startDate, String endDate) {
+    private boolean isCorrectDatePattern(String startDate, String endDate) {
         return isPattern(startDate) && isPattern(endDate);
     }
 

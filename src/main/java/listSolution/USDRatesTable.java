@@ -9,7 +9,7 @@ public class USDRatesTable {
     BigDecimal bidDifference;
     BigDecimal askDifference;
 
-    public USDRatesTable(String date, BigDecimal bid, BigDecimal ask, BigDecimal bidDifference, BigDecimal askDifference) {
+    USDRatesTable(String date, BigDecimal bid, BigDecimal ask, BigDecimal bidDifference, BigDecimal askDifference) {
         this.date = date;
         this.bid = bid;
         this.ask = ask;

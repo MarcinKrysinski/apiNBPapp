@@ -29,7 +29,7 @@ public class Lists {
     }
 
 
-    void fillTitlesColumns(){
+    private void fillTitlesColumns(){
         titleLine.add(new TitlesColumns("Date", "Bid price", "Ask price", "Bid price difference", "Ask price difference"));
     }
 

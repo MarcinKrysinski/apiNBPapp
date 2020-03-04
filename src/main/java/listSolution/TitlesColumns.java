@@ -8,7 +8,7 @@ public class TitlesColumns {
     String askDifference;
     String space = "    ";
 
-    public TitlesColumns(String date, String bid, String ask, String bidDifference, String askDifference) {
+    TitlesColumns(String date, String bid, String ask, String bidDifference, String askDifference) {
         this.date = date;
         this.bid = bid;
         this.ask = ask;

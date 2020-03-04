@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 class Methods {
     static boolean exit = true;
     private Scanner scanner = new Scanner(System.in);
-    Lists list = new Lists();
+    private Lists list = new Lists();
 
     void menu() {
 
@@ -33,7 +33,7 @@ class Methods {
     }
 
 
-    void program() {
+    private void program() {
 
         System.out.println("Date format [yyyy-mm-dd]");
 
@@ -58,7 +58,7 @@ class Methods {
     }
 
 
-    boolean isCorrectDatePattern(String startDate, String endDate) {
+    private boolean isCorrectDatePattern(String startDate, String endDate) {
         return isPattern(startDate) && isPattern(endDate);
     }
 

@@ -5,7 +5,7 @@ import java.math.RoundingMode;
 
 public class RatesTable {
 
-    void createNameLine(Object[][] table) {
+    private void createNameLine(Object[][] table) {
         table[0] = new String[]{"Date", "Bid price", "Ask price", "Bid price difference", "Ask price difference"};
     }
 
